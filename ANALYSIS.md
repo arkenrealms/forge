@@ -28,6 +28,7 @@
 - Added `packages/web/src/components/Menu/{README.md,ANALYSIS.md}` from direct source analysis of menu root primitives (`Menu.tsx`, `config.ts`, `theme.ts`, `types.ts`); documented dormant container ownership and duplicated social-config entries.
 - Added `packages/web/src/hooks/{README.md,ANALYSIS.md}` from direct hook-layer analysis (`useWindows`, `useAuth`, `useWeb3`, `useNotice`, `useLive`, `index`); documented monolithic route-registry/auth coupling and loose typing risks.
 - Added `packages/web/src/contexts/{README.md,ANALYSIS.md}` and `packages/web/src/contexts/Localisation/{README.md,ANALYSIS.md}` from direct localisation-context analysis (`languageContext.tsx`, `translationsContext.ts`); documented localStorage coupling, commented translation-refresh behavior, and typing drift risks.
+- Added `packages/web/src/components/account/{README.md,ANALYSIS.md}` and `packages/web/src/components/account/AchievementRow/{README.md,ANALYSIS.md}` from direct account-achievements leaf analysis (`AchievementRow/index.tsx`, `PointsLabel.tsx`); documented disabled collect-action behavior and schema-shape guard gaps.
 
 ## Next actions
 - Continue chunked analysis in next Forge leafs (`web/src/views/*`, `web/src/hooks/*`, or remaining `web/src/components/*` leaves) while preserving bottom-up rollups.

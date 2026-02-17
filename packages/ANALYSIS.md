@@ -29,6 +29,7 @@
 - Added `web/src/components/Menu/{README.md,ANALYSIS.md}` after source read of `Menu.tsx`, `config.ts`, `theme.ts`, and `types.ts`; documented dormant top-level container behavior and menu-config duplication drift.
 - Added `web/src/hooks/{README.md,ANALYSIS.md}` after source read of `useWindows.tsx`, `useAuth.tsx`, `useWeb3.ts`, `useNotice.tsx`, `useLive.tsx`, and `index.ts`; documented monolithic route-registry coupling, mixed auth-path ownership, and broad `any` typing surfaces.
 - Added `web/src/contexts/{README.md,ANALYSIS.md}` and `web/src/contexts/Localisation/{README.md,ANALYSIS.md}` after source read of localisation providers; documented browser-localStorage coupling, commented translation-fetch flow, and loose typing risk (`any`).
+- Added `web/src/components/account/{README.md,ANALYSIS.md}` and `web/src/components/account/AchievementRow/{README.md,ANALYSIS.md}` after source read of `AchievementRow/index.tsx` and `PointsLabel.tsx`; documented disabled collect-flow ownership and nested achievement payload-shape assumptions.
 
 ## Risks
 - Architectural drift between intended module boundaries and actual runtime behavior.
