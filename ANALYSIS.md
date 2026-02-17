@@ -25,6 +25,7 @@
 - Added `packages/web/src/views/royale/{README.md,ANALYSIS.md}` from a direct route-source pass; confirmed route layer is a thin active-gate wrapper over `components/Royale` runtime ownership.
 - Added `packages/web/src/components/Menu/components/{README.md,ANALYSIS.md}` from a menu runtime-component pass; documented wallet/account modal bridge ownership, nav config rendering flow, and typing/imperative-navigation testability gaps.
 - Added `packages/web/src/components/Logo/{README.md,ANALYSIS.md}` from direct source analysis of `Logo/index.tsx`; documented multi-source logo fallback behavior, module-global failed-src suppression tradeoffs, and lightweight typing gaps.
+- Added `packages/web/src/components/Menu/{README.md,ANALYSIS.md}` from direct source analysis of menu root primitives (`Menu.tsx`, `config.ts`, `theme.ts`, `types.ts`); documented dormant container ownership and duplicated social-config entries.
 
 ## Next actions
 - Continue chunked analysis in next Forge leafs (`web/src/views/*`, `web/src/hooks/*`, or remaining `web/src/components/*` leaves) while preserving bottom-up rollups.

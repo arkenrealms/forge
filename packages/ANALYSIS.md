@@ -26,6 +26,7 @@
 - Added `web/src/components/Menu/icons/{README.md,ANALYSIS.md}` after source read of menu icon files; documented static SVG ownership and `Logo.tsx` browser-coupled timing/styling outlier risks.
 - Added `web/src/views/royale/{README.md,ANALYSIS.md}` after source read of `royale/index.tsx`; confirmed the route is a thin activation wrapper delegating runtime behavior to `components/Royale`.
 - Added `web/src/components/Logo/{README.md,ANALYSIS.md}` after source read of `Logo/index.tsx`; documented global failed-URL suppression behavior, fallback semantics, and typing/observability gaps.
+- Added `web/src/components/Menu/{README.md,ANALYSIS.md}` after source read of `Menu.tsx`, `config.ts`, `theme.ts`, and `types.ts`; documented dormant top-level container behavior and menu-config duplication drift.
 
 ## Risks
 - Architectural drift between intended module boundaries and actual runtime behavior.
