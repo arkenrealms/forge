@@ -24,6 +24,7 @@
 - Added `packages/web/src/components/Menu/icons/{README.md,ANALYSIS.md}` from a menu-icons pass; documented mostly static SVG icon ownership and `Logo.tsx` browser-coupled load-timing/styling behavior as the outlier.
 - Added `packages/web/src/views/royale/{README.md,ANALYSIS.md}` from a direct route-source pass; confirmed route layer is a thin active-gate wrapper over `components/Royale` runtime ownership.
 - Added `packages/web/src/components/Menu/components/{README.md,ANALYSIS.md}` from a menu runtime-component pass; documented wallet/account modal bridge ownership, nav config rendering flow, and typing/imperative-navigation testability gaps.
+- Added `packages/web/src/components/Logo/{README.md,ANALYSIS.md}` from direct source analysis of `Logo/index.tsx`; documented multi-source logo fallback behavior, module-global failed-src suppression tradeoffs, and lightweight typing gaps.
 
 ## Next actions
 - Continue chunked analysis in next Forge leafs (`web/src/views/*`, `web/src/hooks/*`, or remaining `web/src/components/*` leaves) while preserving bottom-up rollups.
