@@ -23,6 +23,7 @@
 - Added `web/src/components/{README.md,ANALYSIS.md}` with a focused deep-dive on `MemeIsles.tsx` as a high-risk transport/runtime ownership surface.
 - Added `web/src/components/Sanctuary/{README.md,ANALYSIS.md}` after full source read of Sanctuary components; documented Oasis runtime ownership and mixed data authority across generated node JSON, Envoy fetches, and seer tRPC hooks.
 - Added `web/src/components/guilds/{README.md,ANALYSIS.md}` after full source read of guild cards/components; documented Forge↔Seer profile-query contract coupling, loose typing (`team: any`), and status/icon semantics drift risk.
+- Added `web/src/views/royale/{README.md,ANALYSIS.md}` after source read of `royale/index.tsx`; confirmed the route is a thin activation wrapper delegating runtime behavior to `components/Royale`.
 
 ## Risks
 - Architectural drift between intended module boundaries and actual runtime behavior.
