@@ -36,6 +36,7 @@
 - Added `packages/web/src/constants/abis/{README.md,ANALYSIS.md}` from direct ABI artifact analysis (`erc20.ts`, `erc20.json`, `erc20_bytes32.json`, `weth.json`, `ens-registrar.json`, `ens-public-resolver.json`); documented mixed artifact-shape drift risk and missing integrity-check guardrails.
 - Added `packages/web/src/constants/multicall/{README.md,ANALYSIS.md}` and `packages/web/src/constants/token/{README.md,ANALYSIS.md}` from direct source/artifact analysis (`multicall/index.ts`, `multicall/abi.json`, `token/pancakeswap.json`); documented multicall address-verification ownership gaps and static token-list staleness/logo-host dependency risks.
 - Added `packages/web/src/utils/{README.md,ANALYSIS.md}` and `packages/web/src/utils/hooks/{README.md,ANALYSIS.md}` from direct utility-layer analysis (`utils/trpc.ts`, `utils/index.ts`, `utils/hooks/useClickOutside.tsx`); documented frontend transport callback-map risks and utility ownership clarity gaps.
+- Added `packages/web/src/state/{README.md,ANALYSIS.md}` and `packages/web/src/state/application/{README.md,ANALYSIS.md}` from direct state-layer analysis (`application/actions.ts`, `hooks.ts`, `reducer.ts`, `updater.ts`); documented block-number updater wiring, popup reducer semantics, and missing reducer/updater test coverage.
 
 ## Next actions
 - Continue chunked analysis in next Forge leafs (`web/src/views/*`, `web/src/hooks/*`, or remaining `web/src/components/*` leaves) while preserving bottom-up rollups.
