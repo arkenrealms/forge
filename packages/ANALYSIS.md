@@ -28,6 +28,7 @@
 - Added `web/src/components/Logo/{README.md,ANALYSIS.md}` after source read of `Logo/index.tsx`; documented global failed-URL suppression behavior, fallback semantics, and typing/observability gaps.
 - Added `web/src/components/Menu/{README.md,ANALYSIS.md}` after source read of `Menu.tsx`, `config.ts`, `theme.ts`, and `types.ts`; documented dormant top-level container behavior and menu-config duplication drift.
 - Added `web/src/hooks/{README.md,ANALYSIS.md}` after source read of `useWindows.tsx`, `useAuth.tsx`, `useWeb3.ts`, `useNotice.tsx`, `useLive.tsx`, and `index.ts`; documented monolithic route-registry coupling, mixed auth-path ownership, and broad `any` typing surfaces.
+- Added `web/src/contexts/{README.md,ANALYSIS.md}` and `web/src/contexts/Localisation/{README.md,ANALYSIS.md}` after source read of localisation providers; documented browser-localStorage coupling, commented translation-fetch flow, and loose typing risk (`any`).
 
 ## Risks
 - Architectural drift between intended module boundaries and actual runtime behavior.
