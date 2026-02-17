@@ -3,14 +3,17 @@
 ## Folder
 `arken/packages/forge/packages`
 
-## Snapshot
-- Files: 1
-- Subfolders: 1
+## Purpose
+- Container for Forge package submodule (`web`).
 
-## Notable contents
-- files: README.md
-- dirs: web
+## Key files
+- `README.md`
+- child path: `web/` (gitlink submodule; contents not initialized in this workspace)
 
-## Next actions
-- Continue chunked analysis into nested submodules/folders.
-- Add/update concise README.md coverage and path-header normalization while touching files.
+## Risks
+- UI/build/runtime analysis is blocked until nested package checkout is available.
+- API contract mismatches with backend services may remain hidden.
+
+## Next test/protocol checks
+- Run `git submodule update --init --recursive` from `arken/packages/forge`.
+- In `web`: run build/typecheck/tests and verify request/response contract handling.
