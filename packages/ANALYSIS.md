@@ -32,6 +32,7 @@
 - Added `web/src/components/account/{README.md,ANALYSIS.md}` and `web/src/components/account/AchievementRow/{README.md,ANALYSIS.md}` after source read of `AchievementRow/index.tsx` and `PointsLabel.tsx`; documented disabled collect-flow ownership and nested achievement payload-shape assumptions.
 - Added `web/src/config/{README.md,ANALYSIS.md}` and `web/src/config/localisation/{README.md,ANALYSIS.md}` after source read of `config/localisation/languageCodes.ts`; documented locale-code ownership and enabled-language drift risk.
 - Added `web/src/connectors/{README.md,ANALYSIS.md}` after source read of `NetworkConnector.ts` and `index.ts`; documented batch JSON-RPC provider ownership, callback-envelope safety risks, and export-surface ambiguity.
+- Added `web/src/config/constants/{README.md,ANALYSIS.md}` after source read of constants catalogs (`farms.ts`, `pools.ts`, `runes.ts`, `teams.ts`, `nfts.ts`, `types.ts`, `index.ts`); documented manual-config drift and integrity-test gaps.
 
 ## Risks
 - Architectural drift between intended module boundaries and actual runtime behavior.
