@@ -38,6 +38,7 @@
 - Added `web/src/constants/multicall/{README.md,ANALYSIS.md}` and `web/src/constants/token/{README.md,ANALYSIS.md}` after source read of `multicall/index.ts`, `multicall/abi.json`, and `token/pancakeswap.json`; documented multicall chain-address verification gaps and token-list metadata drift risks.
 - Added `web/src/utils/{README.md,ANALYSIS.md}` and `web/src/utils/hooks/{README.md,ANALYSIS.md}` after source read of `utils/trpc.ts`, `utils/index.ts`, and `utils/hooks/useClickOutside.tsx`; documented monolithic client transport ownership and callback-lifecycle test gaps.
 - Added `web/src/state/{README.md,ANALYSIS.md}` and `web/src/state/application/{README.md,ANALYSIS.md}` after source read of `application/{actions,hooks,reducer,updater}.ts`; documented block-height monotonicity, popup lifecycle semantics, and updater listener/teardown risks.
+- Added `web/src/state/user/{README.md,ANALYSIS.md}` after source read of `user/{actions,reducer,hooks}.tsx`; documented preference-state ownership, token/pair serialization flows, and tracked-pair dedupe/testability risks.
 - Refreshed `web/src/components/{README.md,ANALYSIS.md}` with a direct `components/Royale.tsx` pass; documented live-feed ownership, repeated filter-key fanout logic, and Rune Royale moderator-event state-machine coupling.
 
 ## Risks
