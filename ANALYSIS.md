@@ -33,6 +33,7 @@
 - Added `packages/web/src/connectors/{README.md,ANALYSIS.md}` from direct connector-layer analysis (`NetworkConnector.ts`, `index.ts`); documented batch JSON-RPC envelope risks and connector export-surface ambiguity.
 - Added `packages/web/src/config/constants/{README.md,ANALYSIS.md}` from direct constants-catalog analysis (`farms.ts`, `pools.ts`, `runes.ts`, `teams.ts`, `nfts.ts`, `types.ts`, `index.ts`); documented large manual config ownership and consistency-test gaps.
 - Added `packages/web/src/constants/{README.md,ANALYSIS.md}` and `packages/web/src/constants/localisation/{README.md,ANALYSIS.md}` from direct constants analysis (`languageCodes.ts`, `index.ts`, `lists.ts`); documented comment-toggled locale activation, hardcoded routing/token defaults, and i18n parity-check gaps.
+- Added `packages/web/src/constants/abis/{README.md,ANALYSIS.md}` from direct ABI artifact analysis (`erc20.ts`, `erc20.json`, `erc20_bytes32.json`, `weth.json`, `ens-registrar.json`, `ens-public-resolver.json`); documented mixed artifact-shape drift risk and missing integrity-check guardrails.
 
 ## Next actions
 - Continue chunked analysis in next Forge leafs (`web/src/views/*`, `web/src/hooks/*`, or remaining `web/src/components/*` leaves) while preserving bottom-up rollups.

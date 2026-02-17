@@ -34,6 +34,7 @@
 - Added `web/src/connectors/{README.md,ANALYSIS.md}` after source read of `NetworkConnector.ts` and `index.ts`; documented batch JSON-RPC provider ownership, callback-envelope safety risks, and export-surface ambiguity.
 - Added `web/src/config/constants/{README.md,ANALYSIS.md}` after source read of constants catalogs (`farms.ts`, `pools.ts`, `runes.ts`, `teams.ts`, `nfts.ts`, `types.ts`, `index.ts`); documented manual-config drift and integrity-test gaps.
 - Added `web/src/constants/{README.md,ANALYSIS.md}` and `web/src/constants/localisation/{README.md,ANALYSIS.md}` after source read of `constants/localisation/languageCodes.ts`, `constants/index.ts`, and `constants/lists.ts`; documented comment-toggled locale activation, hardcoded address/default drift risk, and parity-check gaps versus translation bundles.
+- Added `web/src/constants/abis/{README.md,ANALYSIS.md}` after source read of `erc20.ts`, `erc20.json`, `erc20_bytes32.json`, `weth.json`, `ens-registrar.json`, and `ens-public-resolver.json`; documented mixed ABI-shape provenance and missing artifact integrity checks.
 
 ## Risks
 - Architectural drift between intended module boundaries and actual runtime behavior.
