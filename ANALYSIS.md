@@ -11,6 +11,10 @@
 - files: .git, .gitignore, .gitmodules, LICENSE, NOTES.md, README.md, package.json
 - dirs: packages
 
+## Latest rotation update
+- Initialized nested submodule `packages/web`.
+- Completed deepest-first analysis chunk in `packages/web/src/modules/royale` and bubbled summaries through `src/modules` and `src`.
+
 ## Next actions
-- Continue chunked analysis into nested submodules/folders.
-- Add/update concise README.md coverage and path-header normalization while touching files.
+- Continue chunked analysis in next Forge leafs (`web/src/views/*` or `web/src/hooks/*`) while preserving bottom-up rollups.
+- Add targeted protocol/reliability notes where frontend transport handling is coupled to view components.

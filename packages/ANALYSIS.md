@@ -8,12 +8,19 @@
 
 ## Key files
 - `README.md`
-- child path: `web/` (gitlink submodule; contents not initialized in this workspace)
+- child path: `web/` (submodule initialized in this run)
+
+## Child summary (latest chunk)
+- `web/src/modules/royale` contains placeholder module files (`royale.router.ts`, `royale.service.ts`) with no executable code.
+- Active Royale runtime path currently lives outside `src/modules`:
+  - `web/src/views/royale/index.tsx`
+  - `web/src/components/Royale.tsx`
+  - `web/src/hooks/useWindows.tsx` route registration.
 
 ## Risks
-- UI/build/runtime analysis is blocked until nested package checkout is available.
-- API contract mismatches with backend services may remain hidden.
+- Architectural drift between intended module boundaries and actual runtime behavior.
+- Live-event/socket logic in UI component scope increases protocol-hardening test friction.
 
 ## Next test/protocol checks
-- Run `git submodule update --init --recursive` from `arken/packages/forge`.
-- In `web`: run build/typecheck/tests and verify request/response contract handling.
+- Run `web` typecheck/tests for regression baseline.
+- Add targeted tests for Royale filter/state-transition behavior after extraction into testable utilities.

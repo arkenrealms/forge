@@ -3,6 +3,6 @@
 Container folder for Forge components.
 
 ## Folders
-- `web/`: Forge web application (tracked as a submodule).
+- `web/`: Forge web application (tracked as a submodule; initialized in this run).
 
-Maintain concise README + NOTES files in nested directories as they are analyzed/updated.
+Recent analysis covered `web/src/modules/royale` (placeholder module files) and upstream runtime integration points in `web/src/views`, `web/src/components`, and `web/src/hooks`.
