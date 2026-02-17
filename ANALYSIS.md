@@ -21,6 +21,7 @@
 - Added `packages/web/src/views/games/oasis/{README.md,ANALYSIS.md}` after reading Oasis route sources directly; captured wrapper-vs-monolith split around `tutorial.tsx`.
 - Added `packages/web/src/components/Sanctuary/{README.md,ANALYSIS.md}` from a full component-level pass; confirmed Oasis routes are mostly thin wrappers over Sanctuary components that currently mix static generated data, direct Envoy fetches, and seer tRPC queries.
 - Added `packages/web/src/components/guilds/{README.md,ANALYSIS.md}` from a guild-component pass; documented TeamCard profile query coupling to Seer, loose typing/dead-code debt, and profile-status rendering ambiguity.
+- Added `packages/web/src/components/Menu/icons/{README.md,ANALYSIS.md}` from a menu-icons pass; documented mostly static SVG icon ownership and `Logo.tsx` browser-coupled load-timing/styling behavior as the outlier.
 - Added `packages/web/src/views/royale/{README.md,ANALYSIS.md}` from a direct route-source pass; confirmed route layer is a thin active-gate wrapper over `components/Royale` runtime ownership.
 
 ## Next actions
