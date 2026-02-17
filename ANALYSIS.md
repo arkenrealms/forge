@@ -18,6 +18,7 @@
 - Added next Forge leaf-first pass in `packages/web/src/views/games/evolution/{leaderboard,tournament}` with new leaf docs and parent rollups.
 - Added `packages/web/src/views/games/isles/{README.md,ANALYSIS.md}` from direct `isles/index.tsx` analysis and bubbled summary updates to parent docs.
 - Added `packages/web/src/components/{README.md,ANALYSIS.md}` and traced Isles runtime ownership into `components/MemeIsles.tsx` (socket + Unity + wallet lifecycle coupling).
+- Added `packages/web/src/views/games/oasis/{README.md,ANALYSIS.md}` after reading Oasis route sources directly; captured wrapper-vs-monolith split around `tutorial.tsx`.
 
 ## Next actions
 - Continue chunked analysis in next Forge leafs (`web/src/views/*` or `web/src/hooks/*`) while preserving bottom-up rollups.
