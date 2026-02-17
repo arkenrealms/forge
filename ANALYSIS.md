@@ -30,6 +30,7 @@
 - Added `packages/web/src/contexts/{README.md,ANALYSIS.md}` and `packages/web/src/contexts/Localisation/{README.md,ANALYSIS.md}` from direct localisation-context analysis (`languageContext.tsx`, `translationsContext.ts`); documented localStorage coupling, commented translation-refresh behavior, and typing drift risks.
 - Added `packages/web/src/components/account/{README.md,ANALYSIS.md}` and `packages/web/src/components/account/AchievementRow/{README.md,ANALYSIS.md}` from direct account-achievements leaf analysis (`AchievementRow/index.tsx`, `PointsLabel.tsx`); documented disabled collect-action behavior and schema-shape guard gaps.
 - Added `packages/web/src/config/{README.md,ANALYSIS.md}` and `packages/web/src/config/localisation/{README.md,ANALYSIS.md}` from direct localisation config analysis (`languageCodes.ts`); documented locale activation-list ownership and translation alignment drift risk.
+- Added `packages/web/src/connectors/{README.md,ANALYSIS.md}` from direct connector-layer analysis (`NetworkConnector.ts`, `index.ts`); documented batch JSON-RPC envelope risks and connector export-surface ambiguity.
 
 ## Next actions
 - Continue chunked analysis in next Forge leafs (`web/src/views/*`, `web/src/hooks/*`, or remaining `web/src/components/*` leaves) while preserving bottom-up rollups.
