@@ -19,6 +19,7 @@
 - Added `packages/web/src/views/games/isles/{README.md,ANALYSIS.md}` from direct `isles/index.tsx` analysis and bubbled summary updates to parent docs.
 - Added `packages/web/src/components/{README.md,ANALYSIS.md}` and traced Isles runtime ownership into `components/MemeIsles.tsx` (socket + Unity + wallet lifecycle coupling).
 - Added `packages/web/src/views/games/oasis/{README.md,ANALYSIS.md}` after reading Oasis route sources directly; captured wrapper-vs-monolith split around `tutorial.tsx`.
+- Added `packages/web/src/components/Sanctuary/{README.md,ANALYSIS.md}` from a full component-level pass; confirmed Oasis routes are mostly thin wrappers over Sanctuary components that currently mix static generated data, direct Envoy fetches, and seer tRPC queries.
 
 ## Next actions
 - Continue chunked analysis in next Forge leafs (`web/src/views/*` or `web/src/hooks/*`) while preserving bottom-up rollups.

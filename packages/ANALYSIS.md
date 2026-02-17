@@ -21,6 +21,7 @@
 - Added `web/src/views/games/isles/{README.md,ANALYSIS.md}` after source-level read of `isles/index.tsx` (thin wrapper over `~/components/MemeIsles`).
 - Added `web/src/views/games/oasis/{README.md,ANALYSIS.md}` after full route-source read; identified wrapper-heavy topology with a monolithic `tutorial.tsx` outlier.
 - Added `web/src/components/{README.md,ANALYSIS.md}` with a focused deep-dive on `MemeIsles.tsx` as a high-risk transport/runtime ownership surface.
+- Added `web/src/components/Sanctuary/{README.md,ANALYSIS.md}` after full source read of Sanctuary components; documented Oasis runtime ownership and mixed data authority across generated node JSON, Envoy fetches, and seer tRPC hooks.
 
 ## Risks
 - Architectural drift between intended module boundaries and actual runtime behavior.
