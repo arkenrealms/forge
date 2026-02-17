@@ -18,6 +18,7 @@
   - `web/src/hooks/useWindows.tsx` route registration.
 - New `web/src/views/games/infinite` leaf analysis confirms route shell + tutorial/static-data composition, with core runtime delegated to shared component layer.
 - Extended leaf-first analysis into `web/src/views/games/evolution/{leaderboard,tournament}`; identified leaderboard as a monolithic view with direct remote polling and query-state orchestration.
+- Added `web/src/views/games/isles/{README.md,ANALYSIS.md}` after source-level read of `isles/index.tsx` (thin wrapper over `~/components/MemeIsles`).
 
 ## Risks
 - Architectural drift between intended module boundaries and actual runtime behavior.
