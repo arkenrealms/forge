@@ -37,3 +37,4 @@
 ## Next actions
 - Continue chunked analysis in next Forge leafs (`web/src/views/*`, `web/src/hooks/*`, or remaining `web/src/components/*` leaves) while preserving bottom-up rollups.
 - Add targeted protocol/reliability notes where frontend transport handling is coupled to view components.
+- Add explicit submodule-pointer review checklist notes when rolling `packages/web` SHA updates from `main`.

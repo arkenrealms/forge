@@ -38,6 +38,7 @@
 ## Risks
 - Architectural drift between intended module boundaries and actual runtime behavior.
 - Live-event/socket logic in UI component scope increases protocol-hardening test friction.
+- `packages/web` tracks `main` via `.gitmodules`; unreviewed pointer bumps can import broad frontend/runtime behavior changes.
 
 ## Next test/protocol checks
 - Run `web` typecheck/tests for regression baseline.
