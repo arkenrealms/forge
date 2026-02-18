@@ -47,3 +47,5 @@
 - Add explicit submodule-pointer review checklist notes when rolling `packages/web` SHA updates from `main`.
 
 - 2026-02-17: Rolled forge-web revert removing source-code edits until unit tests are available for validation.
+
+- 2026-02-17: Rolled final forge-web source-revert (Royale) to enforce docs-only PR scope.
