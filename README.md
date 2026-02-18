@@ -1,13 +1,10 @@
 # Arken Forge
 
-## Backend
+Meta-repo for Forge surfaces.
 
-This is basically backend server.
+## Structure
+- `packages/web` → `arkenrealms/forge-web` (submodule)
 
-## UI
-
-This is basically the shared UI library.
-
-## Web
-
-This is basically the frontend client.
+## Notes
+- This repository mostly tracks submodule pointers and rollup docs.
+- `.gitmodules` pins `packages/web` to track `main`; pointer updates should be reviewed as runtime-impacting changes.
