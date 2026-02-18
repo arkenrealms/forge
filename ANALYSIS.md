@@ -51,3 +51,5 @@
 - 2026-02-17: Rolled final forge-web source-revert (Royale) to enforce docs-only PR scope.
 
 - 2026-02-17: Rolled forge-web Royale.tsx restoration; PR now docs-only per policy.
+
+- 2026-02-17: Rolled forge-web revert for src/state/wallet/hooks.ts (policy: source changes require test validation).
