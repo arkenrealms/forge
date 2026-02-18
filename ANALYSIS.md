@@ -38,6 +38,7 @@
 - Added `packages/web/src/utils/{README.md,ANALYSIS.md}` and `packages/web/src/utils/hooks/{README.md,ANALYSIS.md}` from direct utility-layer analysis (`utils/trpc.ts`, `utils/index.ts`, `utils/hooks/useClickOutside.tsx`); documented frontend transport callback-map risks and utility ownership clarity gaps.
 - Added `packages/web/src/state/{README.md,ANALYSIS.md}` and `packages/web/src/state/application/{README.md,ANALYSIS.md}` from direct state-layer analysis (`application/actions.ts`, `hooks.ts`, `reducer.ts`, `updater.ts`); documented block-number updater wiring, popup reducer semantics, and missing reducer/updater test coverage.
 - Added `packages/web/src/state/user/{README.md,ANALYSIS.md}` from direct user-state analysis (`user/actions.ts`, `reducer.ts`, `hooks.tsx`); documented preference-state ownership, token/pair registry behavior, and tracked-pair derivation risk/test gaps.
+- Added `packages/web/src/state/wallet/{README.md,ANALYSIS.md}` from direct wallet-state analysis (`wallet/hooks.ts`); documented multicall balance selector ownership, amount-mapping behavior, and duplicate-address/test-coverage gaps.
 - Refreshed `packages/web/src/components/{README.md,ANALYSIS.md}` after direct source pass of `components/Royale.tsx`; documented monolithic live-feed ownership (socket + polling + filter fanout + Rune Royale moderator-event transitions) and transport-testability risks.
 
 ## Next actions
