@@ -49,3 +49,5 @@
 - 2026-02-17: Rolled forge-web revert removing source-code edits until unit tests are available for validation.
 
 - 2026-02-17: Rolled final forge-web source-revert (Royale) to enforce docs-only PR scope.
+
+- 2026-02-17: Rolled forge-web Royale.tsx restoration; PR now docs-only per policy.
