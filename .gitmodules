@@ -2,3 +2,7 @@
 	path = packages/web
 	url = https://github.com/arkenrealms/forge-web.git
 	branch = main
+[submodule "packages/protocol"]
+	path = packages/protocol
+	url = https://github.com/arkenrealms/forge-protocol.git
+	branch = main
