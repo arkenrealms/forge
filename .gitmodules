@@ -1,4 +1,0 @@
-[submodule "packages/web"]
-	path = packages/web
-	url = https://github.com/arkenrealms/forge-web.git
-	branch = main
